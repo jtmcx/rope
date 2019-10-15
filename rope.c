@@ -97,7 +97,7 @@ rope_weight(rope_t *r)
 	return 0;
 }
 
-static size_t
+size_t
 rope_len(rope_t *r)
 {
 	assert(r);
